@@ -1,0 +1,41 @@
+.avatar_container {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.name_container {
+  margin-top: 48px;
+}
+.name_container h1{
+  margin-bottom: 0;
+}
+.name_typo {
+  color:aliceblue;
+  font-size: 42px;
+}
+
+.title_container {
+  margin-top: 20px;
+}
+.title_container h2{
+  margin-bottom: 0;
+}
+.title_typo {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.interact_container {
+  margin-top: 20px;
+}
+.interact_btn {
+  width: 220px;
+  padding: 16px 28px;
+  border-style: none;
+  background-color: forestgreen;
+  border-radius: 5px;
+  color:aliceblue;
+}

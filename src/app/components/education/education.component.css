@@ -1,0 +1,14 @@
+section{
+  margin: 120px auto;
+  width: 80%;
+}
+
+.title_container {
+ display: flex;
+ justify-content: space-around;
+}
+
+section h3{
+  font-size: 28px;
+  font-weight: bolder;
+}

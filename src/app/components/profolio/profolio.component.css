@@ -1,0 +1,62 @@
+section{
+  margin: 120px auto 0;
+  width: 80%;
+}
+
+.title_container {
+ display: flex;
+ justify-content: space-around;
+}
+
+section h3{
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.tab_container {
+  margin-top: 18px;
+}
+
+.icons_row {
+  margin: 0 auto;
+  width: 240px;
+}
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icon_container {
+  display: flex;
+  justify-content: center;
+}
+.icon_selected{
+  background-color: green;
+  color:aliceblue;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.icon_regular{
+  background-color:rgba(0, 0, 0, 0.05);
+  color:darkgrey;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.content_container {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 32px;
+}
+.content_container > div {
+ display: flex;
+ flex-direction: column;
+}
+.content_container > div > div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

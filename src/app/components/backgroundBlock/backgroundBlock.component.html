@@ -1,0 +1,11 @@
+<div *ngFor="let block of blocks" class="block_container">
+  <div class="bullet_container">
+    <h5>{{ block.time }}</h5>
+    <h4>{{ block.name }}</h4>
+  </div>
+  <div class="description_containter">
+    <h4>{{ block.title }}</h4>
+    <h5 *ngIf="block.subTitle !== ''">{{ block.subTitle }}</h5>
+    <p>{{ block.description }}</p>
+  </div>
+</div>
