@@ -9,7 +9,6 @@ import { SocialBarComponent } from './components/socialBar/socialBar.component';
 import { SkillsComponent } from './components/skills/skills.component'
 import { SummaryComponent } from './components/summary/summary.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LayOutComponent } from './components/layOut/layOut.component';
 import { ProfolioComponent } from './components/profolio/profolio.component';
 import { BackgroundBlockComponent } from './components/backgroundBlock/backgroundBlock.component';
 import { WorkExperienceComponent } from './components/workExperience/workExperience.component';
@@ -24,7 +23,6 @@ import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LayOutComponent,
     NavBarComponent,
     HeaderComponent,
     SocialBarComponent,
